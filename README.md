@@ -1,5 +1,6 @@
 # Simple Bash Script for Monster Hunter World Mod Management for Linux Gamers
-
+## Legal
+I am not responsible if your use of this script results in any negative consequences. Please look through the script before running.
 ## Why?
 I'm too lazy to figure out how to get the popular `.exe` Mod Manager to work on Linux
 
