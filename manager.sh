@@ -140,6 +140,9 @@ remove_mods() {
     fi
   done
 
+  # Remove the mod from the log
+  echo "$(jq 'del(."'$mod_name'")' "$MOD_LOG_PATH")" > "$MOD_LOG_PATH"
+
   # Print the changes
   cat "$MOD_LOG_PATH" | jq
   
